@@ -1,0 +1,20 @@
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellowgreen;
+    }
+
+}
+
+.x {
+    width: 700px;
+    height: 400px;
+    background-color: yellowgreen;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+}
